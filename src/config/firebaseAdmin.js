@@ -86,6 +86,7 @@ if (!admin.apps.length) {
     });
 }
 
+
 // Ensure Firestore instance is initialized
 const db = admin.firestore();
 console.log("✅ Firestore initialized:", !!db); // Debugging Log
